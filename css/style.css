@@ -1,0 +1,26 @@
+/* Сброс стандартных отступов */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Общие стили страницы */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    padding: 40px;
+}
+
+/* Заголовок */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Текст */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
