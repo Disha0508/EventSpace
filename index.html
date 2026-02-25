@@ -181,6 +181,65 @@
         </div>
       </section>
 
+      <!-- Микроразметка -->
+
+      <article itemscope itemtype="https://schema.org/Event" class="event-card">
+        <header>
+          <h2 itemprop="name">Концерт в EventSpace</h2>
+        </header>
+
+        <div class="event-image">
+          <img
+            itemprop="image"
+            src="images/photo.jpg"
+            alt="Концерт в EventSpace — живая музыка и атмосфера"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="event-details">
+          <div class="event-date">
+            <time itemprop="startDate" datetime="2026-05-10T20:00:00+03:00">
+              <strong>10 мая 2026</strong><br />
+              <span>20:00</span>
+            </time>
+          </div>
+
+          <div
+            itemprop="location"
+            itemscope
+            itemtype="https://schema.org/Place"
+            class="event-location"
+          >
+            <address
+              itemprop="address"
+              itemscope
+              itemtype="https://schema.org/PostalAddress"
+            >
+              <span itemprop="name">EventSpace Гомель</span><br />
+              <span itemprop="streetAddress">ул. Советская, 8</span>,
+              <span itemprop="addressLocality">Гомель</span>
+            </address>
+          </div>
+
+          <a
+            href="/tickets/concert-2026-05-10"
+            class="event-button"
+            itemprop="url"
+          >
+            Записаться / Купить билет →
+          </a>
+        </div>
+        <meta
+          itemprop="eventStatus"
+          content="https://schema.org/EventScheduled"
+        />
+        <meta
+          itemprop="eventAttendanceMode"
+          content="https://schema.org/OfflineEventAttendanceMode"
+        />
+      </article>
+
       <!-- ================= OFFER ================= -->
       <section class="offer">
         <div class="container">
@@ -256,19 +315,27 @@
     </main>
 
     <!-- ================= FOOTER ================= -->
-    <footer class="footer">
-      <!-- верхняя надпись -->
+
+    <footer class="footer" itemscope itemtype="https://schema.org/Organization">
       <div class="footer__title">
         ОТМЕЧАЙ EVENTSPACE И СТАНОВИСЬ ЧАСТЬЮ НАШЕЙ ИСТОРИИ
       </div>
 
-      <!-- декоративные карточки -->
+      <!-- декоративные карточки  -->
       <div class="footer__gallery">
         <span></span><span></span><span></span><span></span><span></span>
         <span></span><span></span><span></span><span></span><span></span>
       </div>
 
       <div class="container footer__grid">
+        <div class="footer__brand" itemprop="name">
+          <a itemprop="url" href="https://eventspace.by"></a>
+          <p itemprop="description" class="footer__slogan">
+            Пространство для вдохновения, общения и новых смыслов
+          </p>
+        </div>
+
+        <!-- Подписка -->
         <section class="footer__subscribe">
           <h3>Оставайтесь в курсе событий</h3>
           <p>
@@ -276,16 +343,18 @@
             приглашения.
           </p>
 
-          <input type="email" placeholder="E-mail" />
-
-          <label class="footer__checkbox">
-            <input type="checkbox" />
-            Я принимаю согласие на обработку Персональных данных
-          </label>
-
-          <button class="footer__btn">подписаться →</button>
+          <form class="subscribe-form">
+            <input type="email" placeholder="E-mail" required />
+            <label class="footer__checkbox">
+              <input type="checkbox" required />
+              Я принимаю
+              <a href="#">согласие на обработку персональных данных</a>
+            </label>
+            <button type="submit" class="footer__btn">подписаться →</button>
+          </form>
         </section>
 
+        <!-- Меню -->
         <nav class="footer__menu">
           <a href="#">мероприятия</a>
           <a href="#">локации</a>
@@ -294,18 +363,64 @@
           <a href="#">о нас</a>
         </nav>
 
+        <!-- Контакты + адрес -->
+        <div class="footer__contacts">
+          <h4>Контакты</h4>
+          <address
+            itemprop="address"
+            itemscope
+            itemtype="https://schema.org/PostalAddress"
+          >
+            <span itemprop="addressLocality">Минск</span><br />
+            <span itemprop="streetAddress">ул. Примерная, 12</span><br />
+            <span itemprop="addressCountry">Беларусь</span>
+          </address>
+
+          <div
+            itemprop="contactPoint"
+            itemscope
+            itemtype="https://schema.org/ContactPoint"
+          >
+            <a href="tel:+375291234567" itemprop="telephone">
+              +375 (29) 123-45-67
+            </a>
+            <a href="mailto:hello@eventspace.by" itemprop="email">
+              hello@eventspace.by
+            </a>
+          </div>
+        </div>
+
         <section class="footer__policy">
           <a href="#">правила и условия</a>
           <a href="#">политика конфиденциальности</a>
         </section>
       </div>
 
-      <!-- соцсети -->
-      <div class="footer__socials">
-        <a href="#">IG</a>
-        <a href="#">TT</a>
-        <a href="#">VK</a>
+      <div class="footer__bottom">
+        <div class="footer__socials">
+          <a
+            href="https://instagram.com/eventspace_official"
+            itemprop="sameAs"
+            aria-label="Instagram"
+            >IG</a
+          >
+          <a
+            href="https://tiktok.com/@eventspace"
+            itemprop="sameAs"
+            aria-label="TikTok"
+            >TT</a
+          >
+          <a href="https://vk.com/eventspace" itemprop="sameAs" aria-label="VK"
+            >VK</a
+          >
+        </div>
+
+        <small class="footer__copyright">
+          © 2026 EventSpace. Все права защищены.
+        </small>
       </div>
+
+      <meta itemprop="foundingDate" content="2023" />
     </footer>
   </body>
 </html>
