@@ -1,0 +1,613 @@
+// мероприятия
+color: #334323;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ line-height: 18px;
+ word-wrap: break-word
+---
+// локации
+color: #334323;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ line-height: 18px;
+ word-wrap: break-word
+---
+// услуги
+color: #334323;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ line-height: 18px;
+ word-wrap: break-word
+---
+// о нас
+color: #334323;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ line-height: 18px;
+ word-wrap: break-word
+---
+// контакты
+color: #334323;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ line-height: 18px;
+ word-wrap: break-word
+---
+// EN
+color: #334323;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ line-height: 18px;
+ word-wrap: break-word
+---
+// РУС
+color: #334323;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ line-height: 18px;
+ word-wrap: break-word
+---
+// EventSpace
+color: #334323;
+ font-size: 40px;
+ font-family: Eugusto Free Personal Use;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// EventSpace
+color: #334323;
+ font-size: 150px;
+ font-family: Eugusto Free Personal Use;
+ font-weight: 400;
+ line-height: 150px;
+ word-wrap: break-word
+---
+// для вдохновления, <br/>общения и новых смыслов
+color: #7B8A6B;
+ font-size: 55px;
+ font-family: Century Gothic;
+ font-weight: 400;
+ line-height: 60.50px;
+ word-wrap: break-word
+---
+// пространство
+color: #7B8A6B;
+ font-size: 48px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ word-wrap: break-word
+---
+// выйди за рамки обычного мероприятия
+color: #334323;
+ font-size: 96px;
+ font-family: Eugusto Free Personal Use;
+ font-weight: 400;
+ text-transform: uppercase;
+ line-height: 96px;
+ letter-spacing: 1.92px;
+ word-wrap: break-word
+---
+// Мы создаём не просто мероприятия, а живую среду для общения, вдохновения и новых смыслов, в которой каждый становится частью происходящего.
+color: #334323;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 400;
+ line-height: 21.60px;
+ word-wrap: break-word
+---
+// настоящее общение
+color: #334323;
+ font-size: 32px;
+ font-family: Eugusto Free Personal Use;
+ font-weight: 400;
+ text-transform: uppercase;
+ line-height: 38.40px;
+ word-wrap: break-word
+---
+// Минимум формальностей и максимум живого диалога между участниками, спикерами и гостями.
+color: #334323;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 400;
+ line-height: 21.60px;
+ word-wrap: break-word
+---
+// Свобода форматов
+color: #334323;
+ font-size: 32px;
+ font-family: Eugusto Free Personal Use;
+ font-weight: 400;
+ text-transform: uppercase;
+ line-height: 38.40px;
+ word-wrap: break-word
+---
+// От лекций и дискуссий до перформансов и нетворкинга — без ограничений и рамок.
+color: #334323;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 400;
+ line-height: 21.60px;
+ word-wrap: break-word
+---
+// место для идей
+color: #334323;
+ font-size: 32px;
+ font-family: Eugusto Free Personal Use;
+ font-weight: 400;
+ text-transform: uppercase;
+ line-height: 38.40px;
+ word-wrap: break-word
+---
+// Пространство, где легко делиться мыслями, находить вдохновение и запускать новые проекты.
+color: #334323;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 400;
+ line-height: 21.60px;
+ word-wrap: break-word
+---
+// погружение в опыт
+color: #334323;
+ font-size: 32px;
+ font-family: Eugusto Free Personal Use;
+ font-weight: 400;
+ text-transform: uppercase;
+ line-height: 38.40px;
+ word-wrap: break-word
+---
+// Ты не просто присутствуешь, а становишься частью происходящего и влияешь на ход события.
+color: #334323;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 400;
+ line-height: 21.60px;
+ word-wrap: break-word
+---
+// больше о нас
+color: white;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 21.60px;
+ word-wrap: break-word
+---
+// наши преимущества
+color: #334323;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ line-height: 21.60px;
+ word-wrap: break-word
+---
+// наши мероприятия
+color: #334323;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ line-height: 21.60px;
+ word-wrap: break-word
+---
+// смотреть дальше
+color: white;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 21.60px;
+ word-wrap: break-word
+---
+// Мы принимали экспертов, авторов и лидеров мнений, которым было важно не просто выступить, а быть услышанными.
+color: #334323;
+ font-size: 24px;
+ font-family: Century Gothic;
+ font-weight: 400;
+ line-height: 28.80px;
+ word-wrap: break-word
+---
+// спикеры и создатели
+color: #334323;
+ font-size: 32px;
+ font-family: Eugusto Free Personal Use;
+ font-weight: 400;
+ text-transform: uppercase;
+ line-height: 38.40px;
+ word-wrap: break-word
+---
+// В EventSpace уже прошли мероприятия, которые собрали активных участников и живой интерес.
+color: #334323;
+ font-size: 16px;
+ font-family: Century Gothic;
+ font-weight: 400;
+ line-height: 19.20px;
+ word-wrap: break-word
+---
+// реальные события
+color: #334323;
+ font-size: 24px;
+ font-family: Eugusto Free Personal Use;
+ font-weight: 400;
+ text-transform: uppercase;
+ line-height: 28.80px;
+ word-wrap: break-word
+---
+// После мероприятий рождались новые проекты, коллаборации и инициативы.
+color: #334323;
+ font-size: 16px;
+ font-family: Century Gothic;
+ font-weight: 400;
+ line-height: 19.20px;
+ word-wrap: break-word
+---
+// идеи в движении
+color: #334323;
+ font-size: 24px;
+ font-family: Eugusto Free Personal Use;
+ font-weight: 400;
+ text-transform: uppercase;
+ line-height: 28.80px;
+ word-wrap: break-word
+---
+// 10:00 - 16:00
+color: #334323;
+ font-size: 70px;
+ font-family: Inter;
+ font-weight: 600;
+ text-transform: uppercase;
+ line-height: 70px;
+ word-wrap: break-word
+---
+// Happy hours
+color: #334323;
+ font-size: 70px;
+ font-family: Inter;
+ font-weight: 600;
+ text-transform: uppercase;
+ line-height: 70px;
+ word-wrap: break-word
+---
+// From Monday to Friday
+color: #334323;
+ font-size: 24px;
+ font-family: Inter;
+ font-weight: 600;
+ text-transform: uppercase;
+ line-height: 28.80px;
+ word-wrap: break-word
+---
+// 10:00 - 19:00
+color: #52341D;
+ font-size: 70px;
+ font-family: Eugusto Free Personal Use;
+ font-weight: 400;
+ text-transform: uppercase;
+ line-height: 70px;
+ word-wrap: break-word
+---
+// часы работы
+color: #52341D;
+ font-size: 70px;
+ font-family: Eugusto Free Personal Use;
+ font-weight: 400;
+ text-transform: uppercase;
+ line-height: 70px;
+ word-wrap: break-word
+---
+// каждый день
+color: #52341D;
+ font-size: 24px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 28.80px;
+ word-wrap: break-word
+---
+// Что такое EventSpace?
+color: #334323;
+ font-size: 24px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 28.80px;
+ word-wrap: break-word
+---
+// Нужно ли активно участвовать?
+color: #334323;
+ font-size: 24px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 28.80px;
+ word-wrap: break-word
+---
+// Активное участие приветствуется, но каждый выбирает комфортный для себя уровень вовлечённости.
+color: #7B8A6B;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 400;
+ line-height: 21.60px;
+ word-wrap: break-word
+---
+// Для кого подойдёт это мероприятие?
+color: #334323;
+ font-size: 24px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 28.80px;
+ word-wrap: break-word
+---
+// Как проходит регистрация?
+color: #334323;
+ font-size: 24px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 28.80px;
+ word-wrap: break-word
+---
+// часто задаваемые вопросы
+color: #334323;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ line-height: 21.60px;
+ word-wrap: break-word
+---
+// Отмечай EventSpace и становись частью нашей истории
+color: #FFF7E8;
+ font-size: 32px;
+ font-family: Eugusto Free Personal Use;
+ font-weight: 400;
+ text-transform: uppercase;
+ line-height: 38.40px;
+ letter-spacing: 0.64px;
+ word-wrap: break-word
+---
+// Оставайтесь в курсе событий
+color: #FFF7E8;
+font-size: 32px;
+ font-family: Eugusto Free Personal Use;
+ font-weight: 400;
+ text-transform: uppercase;
+ line-height: 38.40px;
+ letter-spacing: 0.64px;
+ word-wrap: break-word
+---
+// Узнайте первыми новости о новых мероприятиях, получайте эксклюзивные приглашения.
+color: #FFF7E8;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 400;
+ line-height: 21.60px;
+ word-wrap: break-word
+---
+// E-mail
+color: #FFF7E8;
+ font-size: 16px;
+ font-family: Century Gothic;
+ font-weight: 400;
+ text-transform: uppercase;
+ line-height: 19.20px;
+ word-wrap: break-word
+---
+// подписаться
+color: #52341D;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 21.60px;
+ word-wrap: break-word
+---
+// Я принимаю согласие на обработку Персональных данных
+color: #FFF7E8;
+ font-size: 14px;
+ font-family: Century Gothic;
+ font-weight: 400;
+ line-height: 16.80px;
+ word-wrap: break-word
+---
+// мероприятия
+color: #FFF7E8;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ line-height: 18px;
+ word-wrap: break-word
+---
+// локации
+color: #FFF7E8;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ line-height: 18px;
+ word-wrap: break-word
+---
+// услуги
+color: #FFF7E8;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ line-height: 18px;
+ word-wrap: break-word
+---
+// контакты
+color: #FFF7E8;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ line-height: 18px;
+ word-wrap: break-word
+---
+// о нас
+color: #FFF7E8;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ line-height: 18px;
+ word-wrap: break-word
+---
+// правила и условия
+color: #FFF7E8;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ line-height: 18px;
+ word-wrap: break-word
+---
+// политика конфиденциальности
+color: #FFF7E8;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ line-height: 18px;
+ word-wrap: break-word
+---
+// мы предлагаем
+color: #334323;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ line-height: 21.60px;
+ word-wrap: break-word
+---
+// Ты не наблюдаешь со стороны — ты вовлечён в процесс и влияешь на него
+color: #334323;
+ font-size: 96px;
+ font-family: Eugusto Free Personal Use;
+ font-weight: 400;
+ text-transform: uppercase;
+ line-height: 96px;
+ word-wrap: break-word
+---
+// Мероприятие даёт пространство для диалога и взаимодействия, где вклад каждого участника действительно имеет значение.
+color: #334323;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 400;
+ line-height: 21.60px;
+ word-wrap: break-word
+---
+// посмотреть варианты
+color: white;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 21.60px;
+ word-wrap: break-word
+---
+// города, где мы
+color: #334323;
+ font-size: 18px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ line-height: 21.60px;
+ word-wrap: break-word
+---
+// Moscow
+color: #334323;
+ font-size: 32px;
+ font-family: Inter;
+ font-weight: 900;
+ text-transform: uppercase;
+ line-height: 38.40px;
+ word-wrap: break-word
+---
+// Saint Petersburg
+color: #334323;
+ font-size: 32px;
+ font-family: Inter;
+ font-weight: 900;
+ text-transform: uppercase;
+ line-height: 38.40px;
+ word-wrap: break-word
+---
+// Гомель
+color: #334323;
+ font-size: 32px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 38.40px;
+ word-wrap: break-word
+---
+// минск
+color: #334323;
+ font-size: 32px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 38.40px;
+ word-wrap: break-word
+---
+// гродно
+color: #334323;
+ font-size: 32px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 38.40px;
+ word-wrap: break-word
+---
+// москва
+color: #334323;
+ font-size: 32px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 38.40px;
+ word-wrap: break-word
+---
+// екатерингбург
+color: #334323;
+ font-size: 32px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 38.40px;
+ word-wrap: break-word
+---
+// брест
+color: #334323;
+ font-size: 32px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 38.40px;
+ word-wrap: break-word
+---
+// витебск
+color: #334323;
+ font-size: 32px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 38.40px;
+ word-wrap: break-word
+---
+// Санкт-Петербург
+color: #334323;
+ font-size: 32px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 38.40px;
+ word-wrap: break-word
+---
+// витебск
+color: #334323;
+ font-size: 32px;
+ font-family: Century Gothic;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 38.40px;
+ word-wrap: break-word
