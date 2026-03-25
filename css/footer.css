@@ -1,0 +1,164 @@
+/* ================= FOOTER ================= */
+
+.footer {
+  background: #52341d;
+  color: #fff7e8;
+  padding: 100px 0 50px;
+  position: relative;
+}
+
+/* Большой заголовок */
+.footer__title {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  color: #fff7e8;
+}
+
+/* Декоративная галерея */
+.footer__gallery {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 90px;
+  flex-wrap: wrap;
+}
+
+.footer__gallery span {
+  width: 82px;
+  height: 118px;
+  border-radius: 8px;
+  background: #d8cdb8;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.footer__gallery span:nth-child(odd) {
+  background: #7b8a6b;
+}
+.footer__gallery span:nth-child(3n) {
+  background: #9a6f4e;
+}
+.footer__gallery span:nth-child(5n) {
+  background: #fff7e8;
+}
+
+/* Основная сетка на 3 колонки */
+.footer__grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 64px;
+  align-items: start;
+}
+
+/* Логотип и слоган (сдвинуты вправо) */
+.footer__brand {
+  margin-left: 60px; /* Тот самый сдвиг */
+}
+
+.footer__brand .footer__logo {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  color: #fff7e8;
+  margin-bottom: 12px;
+}
+
+.footer__slogan {
+  font-size: 17px;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+/* Общие стили для заголовков в колонках */
+.footer__menu h4,
+.footer__contacts h4 {
+  font-size: 15px;
+  margin-bottom: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #fff7e8;
+}
+
+/* Навигация */
+.footer__menu a {
+  display: block;
+  color: #fff7e8;
+  text-decoration: none;
+  margin-bottom: 14px;
+  transition: color 0.2s;
+}
+
+.footer__menu a:hover {
+  color: #d8cdb8;
+}
+
+/* Контакты */
+.footer__contacts address {
+  font-style: normal;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.footer__contact-links a {
+  display: block;
+  color: #fff7e8;
+  text-decoration: none;
+  margin-bottom: 8px;
+  opacity: 0.9;
+}
+
+.footer__contact-links a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+/* Нижняя часть (Копирайт) */
+.footer__bottom {
+  border-top: 1px solid rgba(255, 247, 232, 0.15);
+  margin-top: 60px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  opacity: 0.75;
+}
+
+/* Адаптивность */
+@media (max-width: 1024px) {
+  .footer__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 50px 40px;
+  }
+  .footer__brand {
+    margin-left: 0; /* Убираем сдвиг на планшетах */
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__title {
+    font-size: 34px;
+  }
+
+  .footer__grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+    text-align: center;
+  }
+
+  .footer__brand {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+  }
+}
