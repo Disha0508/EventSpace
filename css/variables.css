@@ -1,0 +1,81 @@
+:root {
+  --color-bg-main: #fffaf0;
+  --color-text-dark: #334323;
+  --color-text-light: #fff7e8;
+  --color-accent-1: #556b2f;
+  --color-accent-2: #52341d;
+
+  --font-main: "Montserrat", system-ui, sans-serif; /* основной текст */
+  --font-title: "Playfair Display", serif; /* заголовки */
+
+  --container-width: 1200px;
+}
+
+/* ================= GOOGLE FONTS ================= */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--color-bg-main);
+  font-family: var(--font-main);
+  color: var(--color-text-dark);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-top: 120px;
+}
+
+/* ================= TYPOGRAPHY ================= */
+h1,
+h2,
+.hero__title,
+.intro__title,
+.section-title,
+.footer__title {
+  font-family: var(--font-title);
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+h3 {
+  font-family: var(--font-title);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Убираем лишние запятые и неправильный синтаксис */
+h1,
+h2,
+h3 {
+  margin-bottom: 1rem;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-main);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+p {
+  margin-bottom: 1rem;
+}
